@@ -1,0 +1,233 @@
+/*TEXT*/
+
+title, h1, h2, h3, h4, a, p, li {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+
+}
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+
+}
+p {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+    background-color: black;
+}
+.buy-icon p {
+    margin: 0px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer p{
+    font-size: 14px;
+    text-align: center;
+}
+
+/*DIVS*/
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron {
+    padding-top: 60px;
+}
+.newsflash {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thick-padding{
+    padding: 24px;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+.buy-icons{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.album-art{
+    padding: 100px;
+}
+.footer{
+    height: 70px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.contact.left {
+    padding-top: 20px;
+}
+.contact.right {
+    text-align: right;
+}
+.vertical-spacer {
+    height: 100px;
+}
+/*IMAGES*/
+
+.jumbotron img {
+    display: none;
+}
+.album-art img {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+}
+.social-icon img{
+    height: 60px;
+    width: 60px;
+}
+
+/*BUTTONS*/
+
+.buy-icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+}
+.social-icon{
+    display: inline;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    /*DIVS*/
+    .jumbotron{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /*VIDEO*/
+    .jumbotron video {
+        width: 100%;
+    }
+    /*IMAGES*/
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h1 {
+        font-size: 120px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 6px;
+
+    }
+    h2 {
+        font-size: 72px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 6px;
+
+    }
+    p {
+        font-size: 20px;
+    }
+    a {
+        font-size: 28px;
+    }
+    body {
+        margin: 0px;
+        background-color: black;
+    }
+    .buy-icon p {
+        margin: 0px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .footer p{
+        font-size: 28px;
+        text-align: center;
+    }
+    /*DIVS*/
+    .jumbotron{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .buy-icons{
+        width: 50%;
+    }
+    .footer {
+        height: 110px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: initial;
+        bottom: initial;
+        left: initial;
+        right: initial;
+    }
+    .contact.left, .contact.right {
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    /*BUTTONS*/
+
+    .buy-icon{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /*VIDEO*/
+    .jumbotron video {
+        display: none;
+    }
+    /*IMAGES*/
+    .jumbotron img{
+        display: block;
+        width: 100%;
+    }
+    .social-icon img{
+        height: 100px;
+        width: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
